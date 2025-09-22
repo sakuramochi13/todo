@@ -1,0 +1,189 @@
+
+
+.todo__message {
+    color:#0f5132;
+    background: #d1e7dd;
+    border-color: #badbcc;
+    font-size: 14px;
+    padding: 10px 30px;
+}
+
+.todo-message__normal {
+    padding: 10px 30px;
+    border-color: #badbcc;
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.todo-message__error {
+        padding: 10px 30px;
+        border-color: #f5c2c7;
+        background-color: #f8d7da;
+        color: #842029;
+}
+
+
+/* 外枠 */
+.todo-outside {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+
+}
+
+/* 新規Todo作成フォーム */
+.form-entry, .form-search {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-entry__writing, .form-search__writing {
+    width: 55%;
+}
+
+.form-entry__writing-txt, .form-search__writing-txt {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.form-entry__select, .form-search__select {
+    width: 20%;
+}
+
+.form-entry__select-category, .form-search__select-category {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.form-entry__button, .form-search__button {
+    width: 15%;
+    margin-left: auto;
+}
+
+.form-entry__button-make, .form-search__button-search {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    height: 40px;
+    background-color: #000;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* Todo一覧テーブル */
+.todo-field {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.todo-field__menu {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.todo-field__menu-title {
+    width: 65%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-field__menu-title--a {
+    margin-right: 0;/* 不要な右余白を削除 */
+}
+
+/* Todoアイテム */
+.todo-field__unit {
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-field__unit td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.todo-field__unit-1 {
+    width: 85%;
+}
+
+.todo-field__unit-2 {
+    width: 15%;
+    text-align: right;
+}
+
+/* 更新フォーム */
+.form-update {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-update__input1 {
+    width: 50%;/*ここを50%に変更？*/
+    max-width: 500px;/*表示蘭の横幅はここです*/
+}
+
+.form-update__input2 {
+    width: 30%;/*ここを50%に変更？*/
+    max-width: 500px;/*表示蘭の横幅はここです*/
+}
+
+.form-update__input-txt {
+    width: 100%;
+    max-width: 500px;/*表示蘭の横幅はここです*/
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-update__input-category {
+    max-width: /*ここを200pxに変更？*/
+}
+
+.form-update__item {
+    margin-left: 10px;
+}
+
+.form-update__item-button {
+    padding: 8px 15px;
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* 削除ボタン */
+.form-delete__item-button {
+    padding: 8px 15px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
